@@ -1,60 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 h2,
 h3,
 h4 {
-  font-family: "arial narrow", Arial, Verdana, sans-serif;
   margin: 0;
 }
 
 h1 {
-  background: #ea2e49;
-  color: rgb(255, 255, 255);
+  background-color: black;
   display: inline-block;
-  font-weight: normal;
-  margin-bottom: 1em;
-  padding: 0.5em 1em;
+  color: white;
+  font-family: "Orbitron", sans-serif;
 }
 
 h2 {
-  color: rgb(255, 255, 255);
-  font-weight: 900;
-  /* Heavy */
-  font-size: 6em;
-  letter-spacing: 1px;
-  line-height: 1em;
+  color: rgb(0, 255, 0);
 }
 
 h3 {
-  font-size: 2.25em;
-  font-weight: 200;
-  /* Thin */
-  letter-spacing: 1px;
-  line-height: 1em;
-  padding: 0.5em 0 0.25em 0;
-}
-
-h4 {
-  font-size: 1.5em;
-  font-weight: 200;
-  /* Thin */
-  letter-spacing: 1px;
-  line-height: 1em;
-  margin: 0.5em 0;
+  color: rgb(0, 255, 0);
 }
 
 p {
   font-family: "VT323", monospace;
 }
 
-a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: #333;
+a:link {
+  color: #29375C;
   text-decoration: none;
-  transition: border-color 0.2s ease-in-out;
 }
 
 a:hover {
-  border-color: #ea2e49;
+  color: #BC3F3F;
 }
 
 * {
@@ -67,10 +44,8 @@ html {
 }
 
 body {
-  font-family: verdana, arial, sans-serif;
   font-size: 85%;
-  color: #333;
-  background-color: #77c4d3;
+  background-color: #aeaeae;
   margin: 0;
   padding: 1em;
 }
@@ -101,39 +76,25 @@ section {
 }
 
 .primary {
-  background-color: #77c4d3;
+  background-color: black;
 }
 
 .accent1 {
-  background-color: #ea2e49;
+  background-color: #B5D7FF;
 }
 
 .accent2 {
-  background-color: rgba(246, 247, 146, 0.9);
+  background-color: #29375C;
 }
 
 .text-dark {
-  background-color: #333;
+  background-color: #BC3F3F;
 }
 
 .element {
   border: 1px solid;
   margin: 0.5em;
   padding: 1em;
-}
-
-.uppercase {
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #333;
-}
-
-.uppercase-light {
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
 }
 
 /*# sourceMappingURL=style-pattern.css.map */

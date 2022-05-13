@@ -12,10 +12,8 @@ html {
 }
 
 body {
-  font-family: $fonts-body;
   font-size: 85%;
-  color: $text-dark;
-  background-color: $primary;
+  background-color: $background-color;
   margin: 0;
   padding: 1em;
 }
@@ -48,19 +46,13 @@ section {
   background-color: $accent1;
 }
 .accent2 {
-  background-color: $accent2;
+  background-color: $alink;
 }
 .text-dark {
-  background-color: $text-dark;
+  background-color: $ahover;
 }
 .element {
   border: 1px solid;
   margin: 0.5em;
   padding: 1em;
-}
-.uppercase {
-  @include atoms.uppercase;
-}
-.uppercase-light {
-  @include atoms.uppercase($text-light);
 }

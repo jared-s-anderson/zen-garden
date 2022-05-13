@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-$fonts-headline: "arial narrow", Arial, Verdana, sans-serif;
-$fonts-body: verdana, arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+$fonts-heading1: 'Orbitron', sans-serif;;
 $fonts-paragraph:'VT323', monospace;
 $background-color: #aeaeae;
-$primary: #77c4d3;
-$accent1: #ea2e49;
-$accent2: rgba(246, 247, 146, 0.9);
-$grey-sidebar: rgba(51, 55, 69, 0.9);
-$text-dark: #333;
-$text-light: rgb(255, 255, 255);
+$h1-color:white;
+$primary: black;
+$accent1: #B5D7FF;
+$alink: #29375C;
+$ahover: #BC3F3F;
