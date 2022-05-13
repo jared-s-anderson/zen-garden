@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import "https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Orbitron&family=Ubuntu&display=swap";
+
+$h1-font: "Orbitron", sans-serif;
 $fonts-headline: "arial narrow", Arial, Verdana, sans-serif;
 $fonts-body: verdana, arial, sans-serif;
-$fonts-paragraph:'VT323', monospace;
+$fonts-paragraph: "VT323", monospace;
 $background-color: #aeaeae;
 $primary: #77c4d3;
 $accent1: #ea2e49;

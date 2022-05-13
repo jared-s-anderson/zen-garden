@@ -1,4 +1,4 @@
-@use 'variables' as *;
+@use "variables" as *;
 
 // mixins to take care of repeated patterns.// this is alice
 @mixin set-font($size: 1em, $line-height: normal, $font: $fonts-body) {
@@ -40,6 +40,7 @@ h1 {
   font-weight: normal;
   margin-bottom: 1em;
   padding: 0.5em 1em;
+  font-family: $h1-font;
 }
 
 h2 {
