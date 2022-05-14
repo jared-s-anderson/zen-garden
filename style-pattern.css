@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Quantico:ital,wght@1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
-
 h2,
 h3,
 h4 {
@@ -10,19 +9,19 @@ h4 {
 }
 
 h1 {
-  background-color: black;
-  display: inline-block;
   color: white;
   font-family: "Orbitron", sans-serif;
 }
 
 h2 {
-  color: rgb(0, 255, 0);
-  font-family: "Quantico:ital,wght@1,700", sans-serif;
+  color: #aeaeae;
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 h3 {
-  color: rgb(0, 255, 0);
+  color: black;
   font-family: "Quantico", sans-serif;
 }
 
@@ -31,7 +30,7 @@ p {
 }
 
 a:link {
-  color: #29375c;
+  color: #aeaeae;
   text-decoration: none;
 }
 
@@ -43,20 +42,15 @@ a:hover {
   box-sizing: border-box;
 }
 
-html {
-  background-color: #aeaeae;
-  padding: 5%;
-}
-
 body {
   font-size: 85%;
-  background-color: #aeaeae;
+  background-color: #29375c;
   margin: 0;
   padding: 1em;
 }
 
 section {
-  background-color: white;
+  background-color: #b5d7ff;
   padding: 1em;
   margin: 1em;
 }
@@ -71,13 +65,13 @@ section {
 }
 .colors > figure {
   margin: 0;
-  flex: 1 1 25%;
+  flex: 15%;
 }
 
 .swatch {
   width: 100%;
   height: 100px;
-  border: 1px solid;
+  border: 2px solid;
 }
 
 .primary {
@@ -89,6 +83,10 @@ section {
 }
 
 .accent2 {
+  background-color: #aeaeae;
+}
+
+.accent3 {
   background-color: #29375c;
 }
 
@@ -96,10 +94,26 @@ section {
   background-color: #bc3f3f;
 }
 
+a {
+  font-family: "VT323", monospace;
+}
+
 .element {
   border: 1px solid;
   margin: 0.5em;
   padding: 1em;
+  background-color: black;
+}
+.element h3 {
+  color: green;
+}
+
+.extext {
+  color: white;
+}
+
+.exam {
+  color: black;
 }
 
 /*# sourceMappingURL=style-pattern.css.map */

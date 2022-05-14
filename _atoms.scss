@@ -25,19 +25,20 @@ h4 {
 }
 
 h1 {
-  background-color: black;
-  display: inline-block;
   color: $h1-color;
   font-family: $fonts-heading1;
 }
 //anything in green is an undecided color
 h2 {
-  color: rgb(0, 172, 0);
+  color: $h2-color;
   font-family: $fonts-heading2;
+  font-weight: $h2weight;
+  font-style: $h2style;
+  
 }
 
 h3 {
-  color: rgb(0, 255, 0);
+  color: $h3-color;
   font-family: $fonts-heading3;
 }
 
