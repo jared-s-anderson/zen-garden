@@ -12,11 +12,10 @@
   flex-flow: $direction $wrap;
 }
 
-
-@mixin set-width-height($width: 2em, $height: auto)
-{width: $width;
-  height: $height}
-
+@mixin set-width-height($width: 2em, $height: auto) {
+  width: $width;
+  height: $height;
+}
 
 // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
 h2,
@@ -30,17 +29,17 @@ h1 {
   display: inline-block;
   color: $h1-color;
   font-family: $fonts-heading1;
-
 }
 //anything in green is an undecided color
 h2 {
   color: rgb(0, 172, 0);
+  font-family: $fonts-heading2;
 }
 
 h3 {
   color: rgb(0, 255, 0);
+  font-family: $fonts-heading3;
 }
-
 
 p {
   font-family: $fonts-paragraph;
@@ -52,7 +51,5 @@ a:link {
 }
 
 a:hover {
-
   color: $ahover;
 }
-

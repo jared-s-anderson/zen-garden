@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-$fonts-heading1: 'Orbitron', sans-serif;
-$fonts-paragraph:'VT323', monospace;
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
+
+$fonts-heading1: "Orbitron", sans-serif;
+$fonts-heading2: "Quantico:ital,wght@1,700", sans-serif;
+$fonts-heading3: "Quantico", sans-serif;
+$fonts-paragraph: "VT323", monospace;
 $background-color: #aeaeae;
-$h1-color:white;
+$h1-color: white;
 $primary: black;
-$accent1: #B5D7FF;
-$alink: #29375C;
-$ahover: #BC3F3F;
+$accent1: #b5d7ff;
+$alink: #29375c;
+$ahover: #bc3f3f;
