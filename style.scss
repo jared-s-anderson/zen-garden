@@ -13,7 +13,9 @@ html {
 
 body {
   font-size: 85%;
-  background-color: $primary;
+  background-image:url("background-dash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100em auto;
   margin: 0;
   padding: 1em;
 }
