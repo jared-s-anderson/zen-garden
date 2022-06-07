@@ -9,13 +9,13 @@
 html {
   background-color: #29375c;
   padding: 5%;
+  background-image: url("background-dash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 body {
   font-size: 85%;
-  background-image: url("background-dash.jpg");
-  background-repeat: no-repeat;
-  background-size: 100em auto;
   margin: 0;
   padding: 1em;
 }
