@@ -1,19 +1,19 @@
-@use "variables" as *; //this puts all the variables in the global namespace.
-// @use 'atoms';
-//@use 'molecules';
-//@use 'organisms' as o;
-
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Quantico:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
 * {
   box-sizing: border-box;
 }
+
 html {
-  background-color: $background-color;
+  background-color: #29375c;
   padding: 5%;
 }
 
 body {
   font-size: 85%;
-  background-color: $primary;
+  background-color: black;
   margin: 0;
   padding: 1em;
 }
@@ -50,7 +50,9 @@ body {
   overflow-y: scroll;
   grid-column: 3;
   grid-row: 2;
-  background-color: $accent1;
+  background-color: #b5d7ff;
   text-align: center;
   padding: 10px;
 }
+
+/*# sourceMappingURL=style.css.map */
