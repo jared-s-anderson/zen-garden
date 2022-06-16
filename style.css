@@ -7,17 +7,20 @@
 }
 
 html {
-  background-color: #29375c;
-  padding: 5%;
-  background-image: url("background-dash.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-image: url("stars-gif.gif");
 }
 
 body {
-  font-size: 85%;
+  background-image: url("background-img.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  padding: 0;
   margin: 0;
-  padding: 1em;
+  height: 100%;
+}
+
+section {
+  background-color: transparent;
 }
 
 .page-wrapper {
