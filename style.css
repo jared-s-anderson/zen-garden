@@ -26,17 +26,24 @@ section {
 .page-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  gap: 10px;
+  grid-auto-rows: 1fr;
   border: 1px solid black;
   height: 125vh;
 }
 
 .summary {
   border: 1px solid black;
-  height: 150px;
-  width: 200px;
+  height: 175px;
+  width: 300px;
   text-align: center;
   padding: 10px;
+  grid-column: 1;
+  grid-row: 1;
+  transform: skewY(-10deg);
+  font-size: 16px;
+  margin-bottom: 25px;
+  background-color: #b5d7ff;
 }
 
 .preamble {
@@ -46,18 +53,39 @@ section {
   overflow-y: scroll;
   text-align: center;
   padding: 10x;
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #b5d7ff;
 }
 
 #zen-supporting {
   border: 1px solid black;
-  height: 150px;
-  width: 300px;
+  height: 250px;
+  width: 500px;
   overflow-y: scroll;
   grid-column: 3;
-  grid-row: 2;
+  grid-row: 3;
   background-color: #b5d7ff;
   text-align: center;
   padding: 10px;
+  font-size: 22px;
+  margin-top: -50px;
+}
+
+.sidebar {
+  border: 1px solid black;
+  height: 175px;
+  width: 275px;
+  overflow-y: scroll;
+  grid-column: 3;
+  grid-row: 1;
+  text-align: center;
+  padding: 10px;
+  background-color: #b5d7ff;
+  transform: skewY(10deg);
+  font-size: 16px;
+  margin-top: 125px;
+  margin-left: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

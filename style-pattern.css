@@ -49,19 +49,10 @@ body {
 }
 
 section {
-  background-color: #b5d7ff;
   padding: 1em;
   margin: 1em;
 }
-aside{
-  grid-column: 3;
-}
-header{
-  position: absolute;
-  top:10%;
-  left:41%;
-  text-align: center;
-}
+
 .colors {
   display: flex;
   flex-flow: row wrap;

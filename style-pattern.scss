@@ -1,5 +1,5 @@
-@use 'variables' as *; //this puts all the variables in the global namespace.
-@use 'atoms';
+@use "variables" as *; //this puts all the variables in the global namespace.
+@use "atoms";
 //@use 'molecules';
 //@use 'organisms' as o;
 
@@ -14,7 +14,7 @@ body {
 }
 
 section {
-  background-color: $accent1;
+  // background-color: $accent1;
   padding: 1em;
   margin: 1em;
 }
@@ -43,13 +43,13 @@ section {
 .accent2 {
   background-color: $alink;
 }
-.accent3{
+.accent3 {
   background-color: $background-color;
 }
 .text-dark {
   background-color: $ahover;
 }
-a{
+a {
   font-family: $fonts-paragraph;
 }
 .element {
@@ -57,11 +57,13 @@ a{
   margin: 0.5em;
   padding: 1em;
   background-color: black;
-  h3{color: $ahover;}
+  h3 {
+    color: $ahover;
+  }
 }
-.extext{
+.extext {
   color: white;
 }
-.exam{
+.exam {
   color: black;
 }
