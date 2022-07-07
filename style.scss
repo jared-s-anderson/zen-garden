@@ -93,3 +93,14 @@ section {
   margin-top: 125px;
   margin-left: 150px;
 }
+
+@media screen and (max-width: 900px) {
+
+  body {
+    background-size: auto 100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+};
+
