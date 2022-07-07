@@ -93,3 +93,27 @@ section {
   margin-top: 125px;
   margin-left: 150px;
 }
+@media screen and (max-width: 900px) {
+
+  body {
+    background-size: auto 100vh;
+    background-repeat: no-repeat;
+    background-position: center top; 
+  }
+
+  .page-wrapper {
+    display: block; 
+  }
+
+  .summary {
+    transform: none; 
+    width: 90%;
+    margin: auto; 
+  }
+
+  header {
+    margin-bottom: 80vh; 
+  }
+
+};
+
