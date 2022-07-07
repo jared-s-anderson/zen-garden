@@ -8,67 +8,74 @@
 }
 html {
   background-image: url("stars-gif.gif");
+  
+  
 }
 
 body {
   background-image: url("background-img.png");
   background-size: 100% auto;
+  background-position: center;
   background-repeat: no-repeat;
-  padding: 0;
-  margin: 0;
-
-  height: 100%;
 }
 section {
   background-color: transparent;
 }
 .page-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
   grid-auto-rows: 1fr;
   border: 1px solid black;
-  height: 125vh;
-}
-
-.summary {
-  border: 1px solid black;
-  height: 175px;
-  width: 300px;
-  text-align: center;
-  padding: 10px;
-  grid-column: 1;
-  grid-row: 1;
-  transform: skewY(-10deg);
-  font-size: 16px;
-  margin-bottom: 25px;
-  background-color: $accent1;
-}
-
-.preamble {
-  border: 1px solid black;
-  height: 150px;
-  width: 300px;
-  overflow-y: scroll;
-  text-align: center;
-  padding: 10x;
-  grid-column: 1;
-  grid-row: 2;
-  background-color: $accent1;
+  .intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    height: inherit;
+    width: 60rem;
+    
+    header{
+      text-align: center;
+    }
+    .summary {
+      border: 1px solid black;
+      height: 175px;
+      width: 300px;
+      text-align: center;
+      padding: 10px;
+      grid-column: 1;
+      grid-row: 1;
+      transform: skewY(-10deg);
+      font-size: 16px;
+      margin-bottom: 25px;
+      background-color: $accent1;
+    }
+  .preamble {
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    overflow-y: scroll;
+    text-align: center;
+    padding: 10x;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: $accent1;
+  }}
 }
 
 #zen-supporting {
   border: 1px solid black;
-  height: 250px;
-  width: 500px;
+  height: 150px;
+  width: 300px;
   overflow-y: scroll;
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 2;
   background-color: $accent1;
   text-align: center;
   padding: 10px;
-  font-size: 22px;
+  font-size: 15px;
   margin-top: -50px;
+  
 }
 
 .sidebar {
