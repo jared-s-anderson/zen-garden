@@ -57,7 +57,7 @@ section {
       text-align: center;
       padding: 10x;
       grid-column: 1;
-      grid-row: 2;
+      grid-row: 3;
       background-color: $accent1;
     }
   }
@@ -92,6 +92,7 @@ section {
   margin-top: 125px;
   margin-left: 150px;
 }
+
 @media screen and (max-width: 900px) {
   body {
     background-size: auto 100vh;
